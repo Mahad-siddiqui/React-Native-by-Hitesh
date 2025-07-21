@@ -39,6 +39,8 @@
 
 import React, { Component } from 'react'
 import { SafeAreaView, ScrollView, View } from 'react-native'
+import Action from './(tabs)/Action'
+import ContactList from './(tabs)/ContactList'
 import ElevatorCards from './(tabs)/ElevatorCards'
 import FlateCards from './(tabs)/FlateCards'
 import FancyCard from './FancyCard'
@@ -52,6 +54,8 @@ export class _layout extends Component {
         <FlateCards />
         <ElevatorCards />
         <FancyCard />
+        <Action />
+        <ContactList />
       </View>
         </ScrollView>
       </SafeAreaView>
