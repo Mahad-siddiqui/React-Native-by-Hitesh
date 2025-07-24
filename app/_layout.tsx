@@ -40,6 +40,7 @@
 import React, { Component } from "react";
 import { SafeAreaView, ScrollView, View } from "react-native";
 import Action from "./(tabs)/Action";
+import BbChanger from "./(tabs)/BbChanger";
 import ContactList from "./(tabs)/ContactList";
 import ElevatorCards from "./(tabs)/ElevatorCards";
 import FlateCards from "./(tabs)/FlateCards";
@@ -48,6 +49,7 @@ import FancyCard from "./FancyCard";
 
 export class _layout extends Component {
   render() {
+    console.log("hello");
     return (
       <SafeAreaView>
         <ScrollView>
@@ -58,6 +60,7 @@ export class _layout extends Component {
             <Action />
             <ContactList />
             <PasswordGenerator/>
+            <BbChanger/>
           </View> 
         </ScrollView>
       </SafeAreaView>
