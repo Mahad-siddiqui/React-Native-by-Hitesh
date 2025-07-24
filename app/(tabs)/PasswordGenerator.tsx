@@ -135,7 +135,7 @@ export default class PasswordGenerator extends Component {
                       style={styles.primaryBtn}
                       onPress={handleSubmit}
                     >
-                      <Text style={styles.primaryBtnTxt}>Generate Password</Text>
+                      <Text style={styles.primaryBtnTxt}>3-Generate Password</Text>
                     </TouchableOpacity>
                     <TouchableOpacity
                       style={styles.secondaryBtn}
