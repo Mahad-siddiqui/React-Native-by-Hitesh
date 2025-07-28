@@ -45,7 +45,7 @@ import ContactList from "./(tabs)/ContactList";
 import ElevatorCards from "./(tabs)/ElevatorCards";
 import FlateCards from "./(tabs)/FlateCards";
 import PasswordGenerator from "./(tabs)/PasswordGenerator";
-import RollTheDice from "./(tabs)/RollTheDice";
+// import RollTheDice from "./(tabs)/RollTheDice";
 import FancyCard from "./FancyCard";
 
 export class _layout extends Component {
@@ -62,7 +62,7 @@ export class _layout extends Component {
             <ContactList />
             <PasswordGenerator/>
             <BbChanger/>
-            <RollTheDice/>
+            {/* <RollTheDice/> */}
           </View> 
         </ScrollView>
       </SafeAreaView>
