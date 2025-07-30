@@ -46,6 +46,8 @@ import ElevatorCards from "./(tabs)/ElevatorCards";
 import FlateCards from "./(tabs)/FlateCards";
 import PasswordGenerator from "./(tabs)/PasswordGenerator";
 // import RollTheDice from "./(tabs)/RollTheDice";
+// import App from "./components/currencyConversion/App";
+import CurrencyChanger from "./(tabs)/CurrencyChanger";
 import FancyCard from "./FancyCard";
 
 export class _layout extends Component {
@@ -63,6 +65,8 @@ export class _layout extends Component {
             <PasswordGenerator/>
             <BbChanger/>
             {/* <RollTheDice/> */}
+            {/* <App/> */}
+            <CurrencyChanger/>
           </View> 
         </ScrollView>
       </SafeAreaView>
